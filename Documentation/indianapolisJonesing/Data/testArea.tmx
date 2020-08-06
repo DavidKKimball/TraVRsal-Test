@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="left-up" compressionlevel="0" width="6" height="6" tilewidth="50" tileheight="50" infinite="0" nextlayerid="31" nextobjectid="65">
+ <properties>
+  <property name="NoAgents" type="bool" value="false"/>
+  <property name="NoSpawning" type="bool" value="false"/>
+ </properties>
+ <tileset firstgid="1" source="../../_Tiled/Master.tsx"/>
+ <tileset firstgid="29" source="../../_Tiled/Deco.tsx"/>
+ <group id="5" name="Floor 0">
+  <properties>
+   <property name="Height" type="float" value="2.5"/>
+  </properties>
+  <layer id="29" name="Ground" width="6" height="6">
+   <data encoding="csv">
+4,4,4,4,4,4,
+4,4,4,4,4,4,
+4,4,4,4,4,4,
+4,4,4,4,4,4,
+4,4,4,4,4,4,
+4,4,4,4,4,4
+</data>
+  </layer>
+  <objectgroup id="27" name="PropRoom"/>
+  <objectgroup id="4" name="Transitions">
+   <object id="8" gid="8" x="250" y="200" width="50" height="50" rotation="90">
+    <properties>
+     <property name="TargetZone" value="testArea2"/>
+    </properties>
+   </object>
+  </objectgroup>
+  <objectgroup id="28" name="RoomProp">
+   <object id="63" type="Center" gid="34" x="100" y="200" width="50" height="50">
+    <properties>
+     <property name="Scale" type="float" value="100"/>
+     <property name="SceneryName" value="Center"/>
+    </properties>
+   </object>
+  </objectgroup>
+ </group>
+</map>

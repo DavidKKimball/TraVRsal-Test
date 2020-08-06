@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ExcludeTeleport
+  - Interactable
+  - Enemy
+  - Player Head
+  - Collectible
+  - Player Helper
   layers:
   - Default
   - TransparentFX

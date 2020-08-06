@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: indianapolisJonesing
+  m_EditorClassIdentifier: 
+  m_GroupName: indianapolisJonesing
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 82361b49ad1b1dd499176c3f71e17e80
+  m_SerializeEntries:
+  - m_GUID: 016773de9125f8642845b5c122be551f
+    m_Address: Worlds/indianapolisJonesing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: dc3078b58a95f2547adfd94b733d3859, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ad872beac5ec2d84f85380c90670af60, type: 2}
+    - {fileID: 11400000, guid: c08328fa4abcd46428a8db5f4f915fc0, type: 2}
